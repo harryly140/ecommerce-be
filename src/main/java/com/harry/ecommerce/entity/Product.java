@@ -12,13 +12,20 @@ import java.util.Date;
 @Data // Lombok annotation, reduces boiletplate code
 public class Product {
     private Long id;
-    private String sku;
-    private String name;
-    private String description;
-    private BigDecimal unitPrice;
-    private boolean active;
-    private int unitsInStock;
-    private Date dateCreated;
-    private Date lastUpdated;
 
+    private String sku;
+
+    private String name;
+
+    private String description;
+
+    private BigDecimal unitPrice;
+
+    private boolean active;
+
+    private int unitsInStock;
+
+    private Date dateCreated;
+
+    private Date lastUpdated;
 }
